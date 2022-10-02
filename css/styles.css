@@ -12,18 +12,25 @@ body{
     background-color: #F5F4FA;
     border-width: 0px;
     border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .button:hover{
     color: #fff;
     background-color: var(--color-logo);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     cursor:pointer;
+    letter-spacing: 0.03em;
 }
 .button:focus {
     color: #fff;
     background-color: var(--color-logo);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     cursor:pointer;
+    letter-spacing: 0.03em;
 }
 .content{
     background-color: #F5F5F5
@@ -48,26 +55,48 @@ body{
 .header-contacts{
     text-decoration: none;
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,15;
+    letter-spacing: 0.02em;
 }
 .header-contacts:hover{
     color:var(--color-logo)
+    letter-spacing: 0.02em;
 }
 .header-contacts:focus{
     color: var(--color-logo)
+    letter-spacing: 0.02em;
 }
 .bottom{
+    font-family: 'Roboto';
     background-color: #2F303A;
 }
 .footer-contacts{
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 2.0;
+    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 }
 .footer-contacts:hover{
-    color: var(--color-logo)
+    text-decoration: none;
+    color: var(--color-logo);
+    font-size: 14px;
+    line-height: 2.0;
+    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 }
 .footer-contacts:focus{
-    color: var(--color-logo)
+    text-decoration: none;
+    color: var(--color-logo);
+    font-size: 14px;
+    line-height: 2.0;
+    letter-spacing: 0.03em;
 }
 .address{
+    font-family: 'Roboto';
     color: #ffffff;
 }
 .footer-logo{
@@ -77,6 +106,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 .logo{
     color: var(--color-logo)
@@ -88,34 +118,45 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 .project-name{
     color:var(--color-primary);
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
+    letter-spacing: 0.06em;
 }
 .product-description{
     color: #757575;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 .botom-list{
     list-style: none;
     background-color:  #2F303A;
 }
+.main-area{
+    background-color: #2F303A;
+}
 .hero-phrase{
     color: #ffffff;
-    background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height:1.35
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .studio-button{
     color: #fff;
     background-color: var(--color-logo);
     border: 0px;
     border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .priority{
     color: var(--color-primary);
@@ -129,26 +170,41 @@ body{
     color: #757575;
     font-weight: 400;
     font-size: 1.7;
+    letter-spacing: 0.03em;
 }
 .direction{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .comand-list{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .specialist-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .specialist-position{
     color: #757575;
     line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .specialists{
     background-color: #F5F4FA;
+}
+.address{
+    font-style: inherit;
+    font-size: 14px;
+    line-height: 2.0;
+    letter-spacing: 0.03em;
 }
