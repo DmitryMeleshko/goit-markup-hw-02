@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--color-primary);
 }
 .button {
     color:var(--color-primary);
@@ -90,7 +90,7 @@ body{
     line-height: 1.2;
 }
 .project-name{
-    color: #212121;
+    color:var(--color-primary);
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -103,4 +103,49 @@ body{
 .botom-list{
     list-style: none;
     background-color:  #2F303A;
+}
+.hero-phrase{
+    color: #ffffff;
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.35
+}
+.studio-button{
+    color: #fff;
+    background-color: var(--color-logo);
+    border: 0px;
+    border-radius: 4px;
+}
+.priority{
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.priority-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 1.7;
+}
+.direction{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15;
+}
+.comand-list{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15;
+}
+.specialist-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.specialist-position{
+    color: #757575;
+    line-height: 1.18;
 }
