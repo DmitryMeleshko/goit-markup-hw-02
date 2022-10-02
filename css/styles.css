@@ -1,0 +1,106 @@
+:root{
+    --color-primary:#212121;
+    --color-logo:#2196f3;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+.button {
+    color:var(--color-primary);
+    background-color: #F5F4FA;
+    border-width: 0px;
+    border-radius: 4px;
+}
+.button:hover{
+    color: #fff;
+    background-color: var(--color-logo);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor:pointer;
+}
+.button:focus {
+    color: #fff;
+    background-color: var(--color-logo);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor:pointer;
+}
+.content{
+    background-color: #F5F5F5
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color:var(--color-primary);;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+.link:hover{
+    color: var(--color-logo)
+}
+.link:focus{
+    color: var(--color-logo)
+}
+.header-contacts{
+    text-decoration: none;
+    color: #757575;
+}
+.header-contacts:hover{
+    color:var(--color-logo)
+}
+.header-contacts:focus{
+    color: var(--color-logo)
+}
+.bottom{
+    background-color: #2F303A;
+}
+.footer-contacts{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover{
+    color: var(--color-logo)
+}
+.footer-contacts:focus{
+    color: var(--color-logo)
+}
+.address{
+    color: #ffffff;
+}
+.footer-logo{
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo{
+    color: var(--color-logo)
+}
+.hero-logo{
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.project-name{
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+}
+.product-description{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.9;
+}
+.botom-list{
+    list-style: none;
+    background-color:  #2F303A;
+}
